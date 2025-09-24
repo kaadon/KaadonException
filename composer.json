@@ -1,0 +1,26 @@
+{
+  "name": "kaadon/exceptions",
+  "type": "library",
+  "description": "Kaadon exceptions for PHP",
+  "keywords": [
+    "exception",
+    "kaadon"
+  ],
+  "homepage": "https://developer.kaadon.com",
+  "license": "MIT",
+  "require": {
+    "PHP": ">=7.1"
+  },
+  "authors": [
+    {
+      "name": "kaadon",
+      "email": "kaadon.com@gmail.com",
+      "homepage": "https://developer.kaadon.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Kaadon\\Exceptions\\": "src"
+    }
+  }
+}
